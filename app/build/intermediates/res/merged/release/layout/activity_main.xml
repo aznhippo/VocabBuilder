@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vocabfun.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Vocab Builder"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="120sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/word"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="62dp"
+        android:onClick="clickGame"
+        android:text="@string/play" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="120dp"
+        android:onClick="clickHistory"
+        android:text="Game History" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="68dp"
+        android:onClick="clickOptions"
+        android:text="Options" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignLeft="@+id/button4"
+        android:onClick="clickAccount"
+        android:text="Account" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/custom_button_blue"
+        android:text="Blue"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+<!-- From: file:/Users/Josh/Desktop/VocabBuilder/app/src/main/res/layout/activity_main.xml -->

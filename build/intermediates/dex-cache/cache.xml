@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Josh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/Josh/Desktop/VocabBuilder/app/build/intermediates/pre-dexed/release/support-v4-19.1.0-f610ea4b7c74038782fe5acd7c0720ac887b8bc1.jar" />
+    </item>
+    <item
+        jar="/Users/Josh/Desktop/VocabBuilder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/Josh/Desktop/VocabBuilder/app/build/intermediates/pre-dexed/release/classes-316a9ccd198006562f5539c4842713b47d5781d6.jar" />
+    </item>
+
+</items>
